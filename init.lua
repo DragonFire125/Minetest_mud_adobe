@@ -2,11 +2,12 @@
 minetest.register_node("mud_adobe:first", {
    description = "Mud",
    tiles = {"mud.png"},
-   groups = {oddly_breakable_by_hand = 3},
+   groups = {crumbly = 3, soil = 1},
+   sounds = default.node_sound_dirt_defaults(),
 })
 
 minetest.register_craft({
-   output = "mud_adobe:first",
+   output = "mud_adobe:first 2",
    recipe = {
             {"bucket:bucket_water"},
             {"default:dirt"},
@@ -17,7 +18,7 @@ minetest.register_craft({
 minetest.register_node("mud_adobe:adobe", {
    description = "adobe",
    tiles = {"clay.png"},
-   groups = {oddly_breakable_by_hand = 2},
+   groups = {oddly_breakable_by_hand = 2, choppy = 3},
 })
 minetest.register_craft({
     output = "mud_adobe:adobe 9",
