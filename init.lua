@@ -9,7 +9,7 @@ minetest.register_node("mud_adobe:first", {
 minetest.register_craft({
    output = "mud_adobe:first 2",
    recipe = {
-            {"bucket:bucket_water"},
+            {"group:water_bucket"},
             {"default:dirt"},
             {"default:dirt"}
 }
