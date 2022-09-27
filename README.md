@@ -1,3 +1,4 @@
+Note i will no longer be creating new repos on github.com i will now be publishing on notabug.org https://notabug.org/X5DragonFire
 # MUD AND ADOBE
 adds mud and adobe to the game
 you use water and dirt to make mud and mud to make adobe
